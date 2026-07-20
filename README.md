@@ -97,41 +97,9 @@ The current interface requests data from routes such as:
 
 ```bash
 git clone https://github.com/Snyzz-dev/VulnWatch.git
-cd VulnWatch
-```
-
-Create a virtual environment:
-
-#### Windows
-
-```powershell
-py -m venv .venv
-.venv\Scripts\activate
-```
-
-#### Linux / macOS
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-Install the dependencies:
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-On Windows, this command can also be used:
-
-```powershell
+cd VulnWatch/vulnwatch
 py -m pip install -r requirements.txt
-```
-
-Start the application:
-
-```bash
-python app.py
+py app.py
 ```
 
 Then open:
